@@ -1,0 +1,358 @@
+/* Landscape phones and portrait tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .text__container {       
+        margin: 240px 10%;        
+    }
+
+    .text__container_item1 {
+        font-size: 45px;
+    }
+
+    .text__container_item2 {
+        font-size: 18px;
+    }
+
+    .text__container_button {
+        font-size: 20px;
+    }
+    
+    .block__item {
+        flex-basis: 40%;
+    }
+
+    .brands_item {
+        flex-basis: 30%;
+    }
+
+    .form-container {
+        padding: 30px 30px 50px 30px;
+    }
+
+    .form-container__left {
+        flex-basis: 50%;
+    }
+    
+    .form-text__title {
+        font-size: 20px;
+    }
+
+    .form-text__main {
+        font-size: 12px;
+    }
+
+    input {
+        padding: 6px 10px;
+    }
+
+    label {
+        margin: 15px 0 5px 0;
+    }
+
+    .form-button {
+        font-size: 14px;
+        width: 200px;
+    }
+
+    #right {
+        margin-left: 20px;
+    }
+    
+    #left {
+        margin-right: 20px;
+    }
+
+    .slider-img {
+        padding: 5px;
+    }
+
+    .slider-card {
+        width: 150px;
+    }   
+}
+
+@media (max-width: 767px) {
+    .header__container {
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .header__nav {
+        padding-top: 5px;
+    }
+  
+    .nav {
+        justify-content: center;
+    }
+
+    .nav__item {
+        flex-basis: 100%;
+        border: 2px solid #ffffff;
+        padding: 10px;
+        margin: 3px;
+        border-radius: 10px;
+    }
+
+    .nav__item + .nav__item {
+        padding-left: 10px;
+    }
+
+    .nav__item:active {
+        background: #00a5ff;
+    }
+
+    .nav__link {
+        font-size: 20px;
+    }
+
+    .text__container {       
+        margin: 340px 10%;        
+    }
+
+    .text__container_item1 {
+        font-size: 30px;
+    }
+
+    .text__container_item2 {
+        font-size: 16px;
+    }
+
+    .text__container_button {
+        font-size: 16px;
+    }    
+
+    .block__list {
+        width: 90%;
+    }
+
+    .block__item {
+        flex-basis: 40%;
+    }
+
+    .header__2, .header__3 {
+        max-width: 100%;
+        padding: 30px;
+    } 
+
+    .portfolio-list {
+        padding-bottom: 40px;
+    }
+
+    .portfolio-button {
+        margin-top: 40px;
+    }
+    
+    .brands-list {
+        width: 70%;
+    }
+
+    .brands_item {
+        flex-basis: 40%;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+
+    .form-item {
+        padding: 0px;
+    }
+
+    .form-container {
+        padding: 20px 5px 40px 5px;
+    }
+
+    .form-item {
+        padding: 0px;
+    }
+
+    form {
+        padding-left: 12px;
+    }
+
+    .form-container__left {
+        flex-basis: 60%;
+    }
+    
+    .form-container__right {
+        flex-basis: 20%;
+    }
+
+    .form-text__title {
+        font-size: 16px;
+    }
+
+    .form-text__main {
+        font-size: 12px;
+    }
+
+    input {
+        padding: 6px 10px;
+    }
+
+    label {
+        margin: 15px 0 5px 0;
+    }
+
+    input, textarea {
+        font-size: 18px;
+    }
+
+    .form-button {
+        font-size: 12px;
+        width: 180px;
+    }
+
+    footer {
+        padding: 10px;	 
+    }    
+
+    .slider {
+        display: block;
+    }
+    #right {
+        margin-left: 100px;
+    }
+    
+    #left {
+        margin-right: 100px;
+    }
+
+    .slider-img {
+        padding: 5px;
+    }
+
+    .slider-text {
+        height: 100px;
+        font-size: 18px;
+        width: 300px;
+        margin-left: -80px;
+       
+    }
+
+    .slider-card {
+        width: 150px;
+    }    
+}
+
+/* Landscape phones and smaller */
+ @media (max-width: 480px) {
+    .page {
+        height: 80%;
+    }    
+
+    .header__nav {
+        padding-top: 3px;
+    }
+
+    .nav__item {
+        flex-basis: 90%;   
+        padding: 8px;
+        margin: 2px;
+    }   
+
+    .nav__link {
+        font-size: 15px;
+    }
+    
+    .text__container {
+        margin: 280px 10%;
+    }
+    
+    .text__container_item1 {
+        font-size: 20px;
+    }
+
+    .text__container_item2 {
+        font-size: 14px;
+    }
+
+    .text__container_button {
+        font-size: 14px;
+    }
+    
+    .header__h1 {
+        font-size: 30px;
+    }    
+    
+    .header__2, .header__3 {
+        padding: 10px;
+    }  
+
+    .header__line {
+         padding: 5px 0;   
+    }   
+
+    .block__item {
+        flex-basis: 100%;
+    }
+
+    .form-item {
+        padding: 0px 10px;
+    }
+
+    .form-container__main {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .form-container__left {
+        flex-basis: 100%;
+    }
+    
+    .form-container__right {
+        flex-basis: 100%;
+    }
+
+    label {
+        margin: 30px 10px 0 10px;
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 60px;
+    }
+
+    textarea, input {
+        font-size: 15px;
+    }
+
+    .round__button {
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+    }
+
+    span {
+        font-size: 30px;
+        padding: 5px;        
+    }    
+
+    footer {
+        flex-direction: column;        
+    }
+
+    #right {
+        margin-left: 40px;
+    }
+    
+    #left {
+        margin-right: 40px;
+    }
+
+    .slider-img {
+        padding: 2px;
+    }
+
+    .slider-text {
+        height: 100px;
+        font-size: 14px;
+        width: 200px;
+        margin-left: -30px;       
+    }
+
+    .slider-post {
+        font-size: 12px;
+    }
+} 
